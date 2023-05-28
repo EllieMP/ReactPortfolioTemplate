@@ -23,118 +23,82 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    firstName: "Ellie",
+    lastName: "Parker",
+    initials: "EP", // the example uses first and last, but feel free to use three or more if you like.
+    position: "a recent computer science graduate",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
+            emoji: '💭',
+            text: 'fueled by dreams'
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in Olympia, WA'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Recent computer science graduate"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "ellie@i-parker.com"
         }
     ],
     socials: [
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
-        {
-            link: "https://github.com",
+            link: "https://github.com/EllieMP",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/elliemparker/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
-        },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
         }
-// Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-// Just change the links so that they lead to your social profiles.
-
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Ellie. I'm a recent CompSci graduate. I studied at Sonoma State University, I enjoy volunteering within the LGBTQIA+ community, going cycling, and fishing!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'python', 'c++', 'git', 'github', 'docker', 'linux server', 'nodejs', 'bash', 'react'],
+            exposedTo: ['AWS', 'google cloud', 'hashcat', 'nmap', 'hardware assembly', 'fpga', 'arduino', 'GIS', 'geocoding']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'LGBTQIA+ volenteering',
+            emoji: '🏳️‍🌈🏳️‍⚧️'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'cycling',
+            emoji: '🚴🏻‍♀️'
         },
         {
-            label: 'movies',
-            emoji: '🎥'
+            label: 'running',
+            emoji: '🏃🏻‍♀️'
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'fishing',
+            emoji: '🎣'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Meals From Dirt",
+            live: "https://www.youtube.com/watch?v=jjRMVBHxS-s", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/EllieMP/mealsfromdirt", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Wordle",
+            live: "https://www.youtube.com/watch?v=cB379yNct4U", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/EllieMP/wordle", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock2
         },
-        {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
-        }
     ]
 }
