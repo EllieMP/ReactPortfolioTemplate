@@ -30,11 +30,11 @@ export const info = {
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '🫖',
-            text: 'fueled by chai tea'
+            text: 'Fueled by chai tea'
         },
         {
             emoji: '🌎',
-            text: 'based in Olympia, WA'
+            text: 'Based in Olympia, WA'
         },
         {
             emoji: "💼",
