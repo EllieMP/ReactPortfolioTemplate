@@ -29,8 +29,8 @@ export const info = {
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '💭',
-            text: 'fueled by dreams'
+            emoji: '🫖',
+            text: 'fueled by chai tea'
         },
         {
             emoji: '🌎',
